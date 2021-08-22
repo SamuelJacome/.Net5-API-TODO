@@ -35,3 +35,6 @@ C:\Projetos\c#\Todo\Todo.Domain.Api\obj\Debug\net5.0\Todo.Domain.Api.dll
 C:\Projetos\c#\Todo\Todo.Domain.Api\obj\Debug\net5.0\ref\Todo.Domain.Api.dll
 C:\Projetos\c#\Todo\Todo.Domain.Api\obj\Debug\net5.0\Todo.Domain.Api.pdb
 C:\Projetos\c#\Todo\Todo.Domain.Api\obj\Debug\net5.0\Todo.Domain.Api.genruntimeconfig.cache
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain.Api\obj\Debug\net5.0\Todo.Domain.Api.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain.Api\obj\Debug\net5.0\ref\Todo.Domain.Api.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain.Api\obj\Debug\net5.0\Todo.Domain.Api.pdb

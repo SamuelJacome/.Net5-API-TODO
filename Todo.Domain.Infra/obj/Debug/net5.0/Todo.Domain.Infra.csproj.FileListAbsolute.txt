@@ -10,3 +10,6 @@ C:\Projetos\c#\Todo\Todo.Domain.Infra\obj\Debug\net5.0\Todo.Domain.Infra.csproj.
 C:\Projetos\c#\Todo\Todo.Domain.Infra\obj\Debug\net5.0\Todo.Domain.Infra.dll
 C:\Projetos\c#\Todo\Todo.Domain.Infra\obj\Debug\net5.0\ref\Todo.Domain.Infra.dll
 C:\Projetos\c#\Todo\Todo.Domain.Infra\obj\Debug\net5.0\Todo.Domain.Infra.pdb
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain.Infra\obj\Debug\net5.0\Todo.Domain.Infra.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain.Infra\obj\Debug\net5.0\ref\Todo.Domain.Infra.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain.Infra\obj\Debug\net5.0\Todo.Domain.Infra.pdb

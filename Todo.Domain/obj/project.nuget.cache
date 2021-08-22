@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eSq0+LzbzWW0eXb20fGO2NpipaJS3sey0DASC3YW80SrY/Qao3SZ9EfLbrOsNitvtLAS9VndJ8b5m8TdSOAEPQ==",
+  "dgSpecHash": "Eznad3VtD1zSkPWrR7R2gGZR/W3fnAT47RDlO1yTZonlLQkL813O22K593KI8w36XcDXQ/jfEk/ThfUnLR7zDQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\c#\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+  "projectFilePath": "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain\\Todo.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

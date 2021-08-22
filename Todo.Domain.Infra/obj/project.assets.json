@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Todo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Todo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Domain/Todo.Domain.csproj",
+      "msbuildProject": "../Todo.Domain/Todo.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Todo.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Desenvolvimento\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\c#\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+      "projectUniqueName": "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
       "projectName": "Todo.Domain.Infra",
-      "projectPath": "C:\\Projetos\\c#\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+      "projectPath": "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
       "packagesPath": "C:\\Users\\Desenvolvimento\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\c#\\Todo\\Todo.Domain.Infra\\obj\\",
+      "outputPath": "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,7 +56,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain\\Todo.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain\\Todo.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

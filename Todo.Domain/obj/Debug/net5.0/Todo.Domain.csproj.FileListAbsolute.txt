@@ -10,3 +10,11 @@ C:\Projetos\c#\Todo\Todo.Domain\obj\Debug\net5.0\Todo.Domain.csproj.CoreCompileI
 C:\Projetos\c#\Todo\Todo.Domain\obj\Debug\net5.0\Todo.Domain.dll
 C:\Projetos\c#\Todo\Todo.Domain\obj\Debug\net5.0\ref\Todo.Domain.dll
 C:\Projetos\c#\Todo\Todo.Domain\obj\Debug\net5.0\Todo.Domain.pdb
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.csprojAssemblyReference.cache
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.AssemblyInfoInputs.cache
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.AssemblyInfo.cs
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\ref\Todo.Domain.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.pdb
