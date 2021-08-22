@@ -18,3 +18,7 @@ C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.csproj.C
 C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.dll
 C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\ref\Todo.Domain.dll
 C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\obj\Debug\net5.0\Todo.Domain.pdb
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\bin\Debug\net5.0\Todo.Domain.deps.json
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\bin\Debug\net5.0\Todo.Domain.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\bin\Debug\net5.0\ref\Todo.Domain.dll
+C:\Projetos\c#\TODO-AspNetCore\Todo.Domain\bin\Debug\net5.0\Todo.Domain.pdb
