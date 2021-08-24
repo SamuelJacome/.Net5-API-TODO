@@ -7,7 +7,11 @@ using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Handlers.cs
 {
-    public class TodoHandler : Notifiable, IHandler<CreateTodoCommand>
+    public class TodoHandler :
+        Notifiable,
+        IHandler<CreateTodoCommand>,
+        IHandler<UpdateTodoCommand>
+
     {
         private readonly ITodoRepository _repository;
 
@@ -25,6 +29,20 @@ namespace Todo.Domain.Handlers.cs
             var todo = new TodoItem(command.Title, command.Date, command.RefUser);
             //Save
             _repository.Create(todo);
+
+            return new GerenicCommandResult(true, "Tarefa salva", todo);
+        }
+        public ICommandResult Handle(UpdateTodoCommand command)
+        {
+            //Fail Fast Validation
+            command.Validate();
+            if (command.Invalid)
+                return new GerenicCommandResult(false, "Ops, parece que sua tarefa está errada!", command.Notifications);
+
+            var todo = _repository.GetById(command.Id, command.RefUser);
+            //Save
+            todo.UpdateTitle(todo);
+            _repository.Update(todo);
 
             return new GerenicCommandResult(true, "Tarefa salva", todo);
         }
