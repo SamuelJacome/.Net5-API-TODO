@@ -41,7 +41,7 @@ namespace Todo.Domain.Handlers.cs
 
             var todo = _repository.GetById(command.Id, command.RefUser);
             //Save
-            todo.UpdateTitle(todo);
+            todo.UpdateTitle(todo.Title);
             _repository.Update(todo);
 
             return new GerenicCommandResult(true, "Tarefa salva", todo);
