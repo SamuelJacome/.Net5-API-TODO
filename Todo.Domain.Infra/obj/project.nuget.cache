@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aBqSpnxSkwXg2CnMz2iIBXobm6g3s0oi+uVWvcy9D3j7fV4vG6hHu2VSgSi3ZeHaedy4Hs19A4/quhmYJEmZyg==",
+  "dgSpecHash": "BGR99d7GoHTamFYBuinGAHdMg2i3Wc+CDOfjwsoNdABmlZ7T0gJkFtV5qzY9NZiwrYG+/Up97WcBDgwVB2/Ffg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\c#\\TODO-AspNetCore\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
