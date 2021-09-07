@@ -18,7 +18,6 @@ namespace Todo.Domain.Api
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
@@ -28,7 +27,8 @@ namespace Todo.Domain.Api
 
 
             services.AddControllers();
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            // services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
             // services.AddTransient
             // services.AddScoped //Por requisição
             // services.AddSingleton // Não é comum, já que os usuários não ficam autenticados nesse app. Ele Criar uma instancia e fica na memoria, ou seja fica na memoria sempre que você precisar da instancia.
