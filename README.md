@@ -1,5 +1,4 @@
 # TODO-API-AspNetCore
 API com:
-Testes Unitários
-CQRS
-DDD
+Testes Unitários;
+utilizando CQRS e DDD.
